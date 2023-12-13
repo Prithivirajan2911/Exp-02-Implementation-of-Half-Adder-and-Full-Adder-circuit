@@ -46,7 +46,9 @@ output sum,carry;
 xor(sum,a,b,c);
 assign carry=a&b | b&c | a&c;
 endmodule
+
 ### FULL ADDER
+
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -63,6 +65,7 @@ endmodule
 HALF ADDER:
 
 ![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/bdc6716b-f269-4c3d-a900-6b4314304c9e)
+
 FULL ADDER:
 
 ![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/13fd80d3-ae04-477c-8bca-2f79d870fa2d)
@@ -71,14 +74,18 @@ FULL ADDER:
 Half Adder Circuit: 
 
 ![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/8ac0eede-9e45-4586-8394-d09529c789ad)
+
 Full Adder Circuit: 
 
- ![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/23b33073-c281-4fab-a239-c11ef1727603)
+![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/23b33073-c281-4fab-a239-c11ef1727603)
 ### Output:
 ### TIMING DIAGRAM
 Half Adder Circuit: -
+
 ![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/c1f7edcc-4ec7-4e53-9e3a-e16e3fc590ff)
+
 Full Adder Circuit: -
+
 ![image](https://github.com/Prithivirajan2911/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147020085/5f469b12-c7b7-4f6d-9fba-428b5d80ffb9)
 
 ### Result:
