@@ -40,15 +40,17 @@ Developed by: PRITHIVIRAJAN V
 RegisterNumber: 23003859
 */
 ### HALF ADDER
+~~~
 module halfadder(sum,carry,a,b,c);
 input a,b,c;
 output sum,carry;
 xor(sum,a,b,c);
 assign carry=a&b | b&c | a&c;
 endmodule
+~~~
 
 ### FULL ADDER
-
+~~~
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -60,6 +62,7 @@ and(q,b,c);
 and(r,a,c);
 or(carry,p,q,r);
 endmodule
+~~~
 
 ### Logic symbol & Truthtable
 HALF ADDER:
